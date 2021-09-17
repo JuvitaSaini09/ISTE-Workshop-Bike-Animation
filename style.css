@@ -25,3 +25,9 @@ img{
 a{
   color:rgb(146, 204, 251);
 }
+.Functions{
+  font-weight:solid;
+  font-size: 22px;
+  background-color:white;
+  padding:20px;
+}

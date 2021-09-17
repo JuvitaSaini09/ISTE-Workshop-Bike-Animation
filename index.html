@@ -42,8 +42,8 @@
                         files.
 
                         <br>Now copy two files <b>graphics.h</b> and <b>winbgim.h</b></li>
-                        <img style="height:140px" src="images/step2.jpg" />
-                        
+                    <img style="height:140px" src="images/step2.jpg" />
+
                     <li>Once again go to Dev-cpp folder (path is mentioned in step 3).Here you will see <b>MinGW64</b>
                         folder. Open that Folder.</li>
                     <img style="height:350px" src="images/MinGW64.jpg" />
@@ -62,14 +62,14 @@
 
                     <li>Once Again Go to that folder where you have downloaded the Zip file or from where you copied the
                         files.There you will see a file <b>libbgi.a</b>.Copy that folder.</li>
-                        <img style="height:160px" src="images/libbgi.jpg"/>
-                        <li>Once again go to Dev-cpp folder (path is mentioned in step 3).Here you will see <b>MinGW64</b>
-                            folder. Open that Folder.</li>
-                            <img style="height:350px" src="images/MinGW64.jpg" />
-                            <li> Inside this Folder You will see a <b>lib</b> Folder.Rigth Click on empty space & paste the
-                                copied files. Tick the checkbox and click on continue.</li>
-                                <img style="height:220px"  src="images/lib.jpg"/>
-                                <img style="height:340px" src="images/lastPaste.jpg"/>
+                    <img style="height:160px" src="images/libbgi.jpg" />
+                    <li>Once again go to Dev-cpp folder (path is mentioned in step 3).Here you will see <b>MinGW64</b>
+                        folder. Open that Folder.</li>
+                    <img style="height:350px" src="images/MinGW64.jpg" />
+                    <li> Inside this Folder You will see a <b>lib</b> Folder.Rigth Click on empty space & paste the
+                        copied files. Tick the checkbox and click on continue.</li>
+                    <img style="height:220px" src="images/lib.jpg" />
+                    <img style="height:340px" src="images/lastPaste.jpg" />
 
                 </ol>
             </div>
@@ -78,18 +78,97 @@
             <h3 class="exercise-heading">Exercise 2 : Create a new Project</h3>
             <p>
                 <ul>
-                    <li>Change the 64 bit release to 32 bit release.<span style="color:red">If you use 64 bit release error will come </span>😠</li>
-                    <li>Go To Project ->Project options->parameters. Now inside <b>linkers</b> box,Paste the following : <br><br>
+                    <li>Change the 64 bit release to 32 bit release.<span style="color:red">If you use 64 bit release
+                            error will come </span>😠</li>
+                    <li>Go To Project ->Project options->parameters. Now inside <b>linkers</b> box,Paste the following :
+                        <br><br>
                         -lbgi<br>
                         -lgdi32<br>
                         -lcomdlg32<br>
                         -luuid<br>
                         -loleaut32<br>
                         -lole32</li>
-                </ul</p>
-                <p>😃 Yippe !! Now,You are ready to use graphic functions</p>
+                    </ul</p> <p>😃 Yippe !! Now,You are ready to use graphic functions
+            </p>
         </section>
+        <hr>
+        <h3 class="exercise-heading">Exercise 3 : Basic structure of C++</h3>
+        <p>
+            1) Header Files <br>
+            2) Main body <br><br>
+            Header files : header files contain some functions and many more things which we use in our program.<br><br>
+            <u> <b>syntax :</b></u><br> #include< iostream.h><br>
+                #include< graphics.h><br>
+                    #include< conio.h>..............etc.
 
+        </p>
+        <img style="height:300px" src="images/headerfiles.jpg" />
+        <p>
+            Main Body : Main body is the area where we actually work.whenever we click on compile and run the compiler
+            starts reading from the main body and does that what is wriiten inside the main. when main ends , it stops
+            reading .And thus program ends .
+            <br><br>
+            <u> <b>syntax :</b></u><br>
+            main()<br>{
+            ....<br>
+            .....<br>
+            <br>}
+
+            <img style="height:280px" src="images/paint.png">
+
+
+        </p>
+        <section>
+
+        </section>
+        <h3 class="exercise-heading">Exercise 4 : Create a Window for graph</h3>
+        <p>Usually when we run our program a black screen opens up on which our program runs but that black
+            screen(console) is takes data which is in text mode like adding of two numbers = input,processing and
+            output, <br>
+            but now we will deal with graphs and for graphs we need to create a window which is in a graph.
+            <span style="color:limegreen">Therefore We will create a window for graphs</span></p>
+        <p class="Functions"><span style="color:black">initwindow</span><span
+                style="color:rgb(170, 7, 75)">(height</span><span style="color:rgb(238, 81, 33)">, Breadth);</span></p>
+        <section>
+
+
+        </section>
+        <h3 class="exercise-heading">Exercise 5 : Basic structure of C++</h3>
+        <p></p>
+        <section>
+
+
+        </section>
+        <h3 class="exercise-heading">Exercise 6 : Basic structure of C++</h3>
+        <p></p>
+        <section>
+
+
+        </section>
+        <h3 class="exercise-heading">Exercise 7 : Basic structure of C++</h3>
+        <p></p>
+        <section>
+
+
+        </section>
+        <h3 class="exercise-heading">Exercise 8 : Basic structure of C++</h3>
+        <p></p>
+        <section>
+
+
+        </section>
+        <h3 class="exercise-heading">Exercise 9 : Basic structure of C++</h3>
+        <p></p>
+        <section>
+
+
+        </section>
+        <h3 class="exercise-heading">Exercise 10 : Basic structure of C++</h3>
+        <p></p>
+        <section>
+
+
+        </section>
 
 
     </main>
