@@ -11,49 +11,83 @@
 
 <body>
     <main id="container">
-        <h1>Moving Bike</h1>
-        <h3><span style="color:red">Note :</span> Install dev C++ IDE in your system</h3>
+        <h1 class="heading">Moving Bike</h1>
+        <h3 class="heading"><span style="color:red">Note :</span> Install dev C++ IDE in your system</h3>
         <hr>
         <section>
-            <h3>Exercise 1 : Configure Library for using graphic in program</h3>
+            <h3 class="exercise-heading">Exercise 1 : Configure Library for using graphic in program</h3>
             <p>You need to download a folder in your system <a
                     href="https://drive.google.com/file/d/14BLoBy0PA_A7_gdgO6UWiLEzrMPr7Hua/view">download
                     link</a>.Download the zip file.Now follow the following steps :</p>
             <div>
                 <ol>
-                    <li>Open the downloaded folder ,you will see some files.(Now we will insert these files at that place where we
+                    <li>Open the downloaded folder ,you will see some files.(Now we will insert these files at that
+                        place where we
                         have installed our dev c++ folder.)</li>
-<p>Now,you have to copy some files from here and paste it at someplace .Follow the following steps to do that :</p>
-<li>Copy :<b>6-ConsoleAppGraphics.template</b> and <b>ConsoleApp_cpp_graph.txt</b> </li>
-<img style="height:270px" src="images/step1.jpg"/>
+                    <p>Now,you have to copy some files from here and paste it at someplace .Follow the following steps
+                        to do that :</p>
+                    <li>Copy :<b>6-ConsoleAppGraphics.template</b> and <b>ConsoleApp_cpp_graph.txt</b> </li>
+                    <img style="height:270px" src="images/step1.jpg" />
                     <li>Go to dev C++ folder .
-                        If you have not changed the default path then path will be :<br>Go to <b>C drive</b>.<br>Then go to <b>Program files(x86)</b>.<br>Then go to <b>Dev-Cpp</b></li>
+                        If you have not changed the default path then path will be :<br>Go to <b>C drive</b>.<br>Then go
+                        to <b>Program files(x86)</b>.<br>Then go to <b>Dev-Cpp</b></li>
                     <br>
                     Here,you will see all dev c++ files.
-                    <li>Here,You will see a folder named <b>Templates</b>.Open the Template folder. Open the Folder ,Right click on empty white space and Paste the files here.</li>
-                    <img style="height:270px"  src="images/templates.jpg"/>
-                   
-                    <img style="height:220px"  src="images/firstPaste.jpg"/>
-                    <li>Once Again Go to that folder where you have downloaded the Zip file or from where you copied the files.
-                        <br>Now copy two files <b>graphics.h</b> and <b>winbgim.h</b>
-                        <img style="height:140px"  src="images/step2.jpg"/>
-                        <li>Once again go to Dev-cpp folder (path is mentioned in step 3).Here you will see <b>MinGW64</b> folder. Open that Folder.</li>
-                        <img style="height:350px"   src="images/MinGW64.jpg" />
-                        <li>Inside MinGW64,You will see a folder <b>x86_64_w64-mingw32</b>.open this Folder</li>
-                        <img style="height:240px"  src="images/x86.jpg"/> 
-                        <li> Inside this Folder You will see a <b>Include</b> Folder.</li>
+                    <li>Here,You will see a folder named <b>Templates</b>.Open the Template folder. Open the Folder
+                        ,Right click on empty white space and Paste the files here.</li>
+                    <img style="height:270px" src="images/templates.jpg" />
+
+                    <img style="height:220px" src="images/firstPaste.jpg" />
+                    <li>Once Again Go to that folder where you have downloaded the Zip file or from where you copied the
+                        files.
+
+                        <br>Now copy two files <b>graphics.h</b> and <b>winbgim.h</b></li>
+                        <img style="height:140px" src="images/step2.jpg" />
                         
+                    <li>Once again go to Dev-cpp folder (path is mentioned in step 3).Here you will see <b>MinGW64</b>
+                        folder. Open that Folder.</li>
+                    <img style="height:350px" src="images/MinGW64.jpg" />
+                    <li>Inside MinGW64,You will see a folder <b>x86_64_w64-mingw32</b>.open this Folder</li>
+                    <img style="height:240px" src="images/x86.jpg" />
+                    <li> Inside this Folder You will see a <b>Include</b> Folder.Rigth Click on empty space & paste the
+                        copied files. Tick the checkbox and click on continue.Open that <b>Include </b>Folder</li>
+
                     </li>
-                    Open that Include Folder 
-                    <img style="height:180px" src="images/include.jpg"/><br>
-                    Rigth Click on empty space & paste the copied files.
-                    <img style="height:300px" src="images/includePaste.jpg"/><br>
-                    Tick the checkbox and click on continue.
-                    <img style="height:200px" src="images/includePasteContinue.jpg"/>
-                    <li></li>
+
+                    <img style="height:180px" src="images/include.jpg" />
+
+                    <img style="height:300px" src="images/includePaste.jpg" />
+
+                    <img style="height:200px" src="images/includePasteContinue.jpg" />
+
+                    <li>Once Again Go to that folder where you have downloaded the Zip file or from where you copied the
+                        files.There you will see a file <b>libbgi.a</b>.Copy that folder.</li>
+                        <img style="height:160px" src="images/libbgi.jpg"/>
+                        <li>Once again go to Dev-cpp folder (path is mentioned in step 3).Here you will see <b>MinGW64</b>
+                            folder. Open that Folder.</li>
+                            <img style="height:350px" src="images/MinGW64.jpg" />
+                            <li> Inside this Folder You will see a <b>lib</b> Folder.Rigth Click on empty space & paste the
+                                copied files. Tick the checkbox and click on continue.</li>
+                                <img style="height:220px"  src="images/lib.jpg"/>
+                                <img style="height:340px" src="images/lastPaste.jpg"/>
 
                 </ol>
             </div>
+        </section>
+        <section>
+            <h3 class="exercise-heading">Exercise 2 : Create a new Project</h3>
+            <p>
+                <ul>
+                    <li>Change the 64 bit release to 32 bit release.<span style="color:red">If you use 64 bit release error will come </span>😠</li>
+                    <li>Go To Project ->Project options->parameters. Now inside <b>linkers</b> box,Paste the following : <br><br>
+                        -lbgi<br>
+                        -lgdi32<br>
+                        -lcomdlg32<br>
+                        -luuid<br>
+                        -loleaut32<br>
+                        -lole32</li>
+                </ul</p>
+                <p>😃 Yippe !! Now,You are ready to use graphic functions</p>
         </section>
 
 
