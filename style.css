@@ -13,14 +13,13 @@
   text-align: center;
  }
   b{
-    color:cyan;
+    color:rgb(187, 236, 11);
   }
 img{
     margin:30px 0; 
 }
 .exercise-heading{
   color:cyan;
-  text-align: center;
   font-size: 26px;
 }
 a{
